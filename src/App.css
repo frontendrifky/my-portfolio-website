@@ -342,6 +342,7 @@ body button:hover{
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   filter: blur(8px);
   position: absolute;
+  left: 10%;
   z-index: -1;
   
 } 
@@ -362,7 +363,7 @@ body button:hover{
 #circle-2{
   position: absolute;
   top: 8%;
-  left: 80%;
+  left: 60%;
 }
 
 
@@ -519,6 +520,12 @@ body button:hover{
   .shiny-circle{
     height: 200px;
     width: 200px;
+    left: 0;
+  }
+
+  #circle-2{
+    top: 8%;
+    left: 80%;
   }
   
   .about{
