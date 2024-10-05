@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import image from '/src/assets/photo.jpg';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -45,7 +46,7 @@ function About() {
       </h1>
       <div className="about-container" ref={aboutContainer}>
         <div className="about-body" ref={photo}>
-          <img src="/src/assets/photo.jpg" alt="face" height="180px" width="150px" />
+          <img src={image} alt="face" height="180px" width="150px" />
         </div>
         <div className="about-me">
           <p>
